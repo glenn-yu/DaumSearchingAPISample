@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE822A261DEBB8DB001E86C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE822A251DEBB8DB001E86C4 /* main.swift */; };
+		EE822A2E1DEBBC3F001E86C4 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE822A2D1DEBBC3F001E86C4 /* WordList.swift */; };
+		EE822A301DEBC0F4001E86C4 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE822A2F1DEBC0F4001E86C4 /* Search.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE822A201DEBB8DB001E86C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE822A221DEBB8DB001E86C4 /* SampleSearchAPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SampleSearchAPI; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE822A251DEBB8DB001E86C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EE822A2C1DEBB922001E86C4 /* list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = list.plist; sourceTree = "<group>"; };
+		EE822A2D1DEBBC3F001E86C4 /* WordList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
+		EE822A2F1DEBC0F4001E86C4 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE822A1F1DEBB8DB001E86C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE822A191DEBB8DB001E86C4 = {
+			isa = PBXGroup;
+			children = (
+				EE822A241DEBB8DB001E86C4 /* SampleSearchAPI */,
+				EE822A231DEBB8DB001E86C4 /* Products */,
+				EE822A2C1DEBB922001E86C4 /* list.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		EE822A231DEBB8DB001E86C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE822A221DEBB8DB001E86C4 /* SampleSearchAPI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE822A241DEBB8DB001E86C4 /* SampleSearchAPI */ = {
+			isa = PBXGroup;
+			children = (
+				EE822A251DEBB8DB001E86C4 /* main.swift */,
+				EE822A2F1DEBC0F4001E86C4 /* Search.swift */,
+				EE822A2D1DEBBC3F001E86C4 /* WordList.swift */,
+			);
+			path = SampleSearchAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE822A211DEBB8DB001E86C4 /* SampleSearchAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE822A291DEBB8DB001E86C4 /* Build configuration list for PBXNativeTarget "SampleSearchAPI" */;
+			buildPhases = (
+				EE822A1E1DEBB8DB001E86C4 /* Sources */,
+				EE822A1F1DEBB8DB001E86C4 /* Frameworks */,
+				EE822A201DEBB8DB001E86C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleSearchAPI;
+			productName = SampleSearchAPI;
+			productReference = EE822A221DEBB8DB001E86C4 /* SampleSearchAPI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE822A1A1DEBB8DB001E86C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yong;
+				TargetAttributes = {
+					EE822A211DEBB8DB001E86C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EE822A1D1DEBB8DB001E86C4 /* Build configuration list for PBXProject "SampleSearchAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE822A191DEBB8DB001E86C4;
+			productRefGroup = EE822A231DEBB8DB001E86C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE822A211DEBB8DB001E86C4 /* SampleSearchAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE822A1E1DEBB8DB001E86C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE822A301DEBC0F4001E86C4 /* Search.swift in Sources */,
+				EE822A261DEBB8DB001E86C4 /* main.swift in Sources */,
+				EE822A2E1DEBBC3F001E86C4 /* WordList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE822A271DEBB8DB001E86C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE822A281DEBB8DB001E86C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE822A2A1DEBB8DB001E86C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE822A2B1DEBB8DB001E86C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE822A1D1DEBB8DB001E86C4 /* Build configuration list for PBXProject "SampleSearchAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE822A271DEBB8DB001E86C4 /* Debug */,
+				EE822A281DEBB8DB001E86C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE822A291DEBB8DB001E86C4 /* Build configuration list for PBXNativeTarget "SampleSearchAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE822A2A1DEBB8DB001E86C4 /* Debug */,
+				EE822A2B1DEBB8DB001E86C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE822A1A1DEBB8DB001E86C4 /* Project object */;
+}
